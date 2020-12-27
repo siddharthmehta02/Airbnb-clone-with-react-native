@@ -19,6 +19,7 @@ import HomeScreen from './src/screens/Home/index';
 import feed from './assets/data/feed.js'
 import SearchResultsScreen from './src/screens/SearchResults';
 import DestinationScreen from './src/screens/DestinationSearch';
+import GuestScreen from './src/screens/Guest';
 
 
 const post1 = feed[0]
@@ -33,7 +34,10 @@ const App: () => React$Node = () => {
         {/* <HomeScreen /> */}
         {/* <Post post={post1} /> */}
         {/* <SearchResultsScreen /> */}
-        <DestinationScreen/>
+        {/* <DestinationScreen/> */}
+        <GuestScreen />
+
+
 
 
       </SafeAreaView>
