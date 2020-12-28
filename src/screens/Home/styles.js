@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         position: 'absolute',
-        top: 20,
+        top: 50,
         zIndex: 1,
         elevation: (Platform.OS === 'android') ? 1 : 0
 
